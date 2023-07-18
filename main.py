@@ -42,7 +42,7 @@ while True:
         else:
             print("Falha na operação! O valor informado é invalido")
 
-    elif opcao == "e": ttt
+    elif opcao == "e":
         print("\n========== EXTRATO ==========")
         print("Não foram realizadas movimentações." if not extrato else extrato)
         print(f"\nSaldo: R$ {saldo: .2f}")
